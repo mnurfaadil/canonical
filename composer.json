@@ -1,0 +1,26 @@
+{
+    "name": "mnurfaadil/canonical",
+    "description" : "Belajar pake library composer",
+    "version" : "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mnurfaadil\\Canonical\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Nurfaadil",
+            "email": "48492249+mnurfaadil@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
