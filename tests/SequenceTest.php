@@ -6,6 +6,9 @@ use PHPUnit\Framework\TestCase;
 
 class SequenceTest extends TestCase
 {
+    /**
+     * @group unit
+     */
     public function testSequencePrintLine()
     {
         $sequence = new Sequence();
